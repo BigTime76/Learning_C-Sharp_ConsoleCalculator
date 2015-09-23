@@ -91,9 +91,10 @@ namespace ConsoleCalc
 
         private static double Divide ( double firstDouble , double secondDouble )
             {
-            // Check for divide by zero error... Eventually replace with exception handling
+            // Check for divide by zero error ...
             if ( firstDouble == 0 || secondDouble == 0 )
                 {
+                Console . WriteLine ( "11th Commandment: Thou shalt not divide by zero!" );
                 return 0;
                 }
             else
