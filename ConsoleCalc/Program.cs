@@ -11,8 +11,8 @@ namespace ConsoleCalc
         private static void Main ( string [ ] args )
             {
             // Values for calulation
-            double firstDouble = GetValue("Enter First Value: ");
-            double secondDouble = GetValue("Enter Second Value: ");
+            double firstDouble = GetValue( "Enter First Value: " );
+            double secondDouble = GetValue( "Enter Second Value: " );
 
             // Value for result
             double resultDouble = 0;
